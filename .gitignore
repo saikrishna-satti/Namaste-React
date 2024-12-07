@@ -1,0 +1,8 @@
+# ignore node_modules file
+node_modules
+
+# ignore parcel-cache
+.parcel-cache
+
+#ignore dist
+dist
