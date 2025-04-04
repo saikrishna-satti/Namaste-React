@@ -2,18 +2,26 @@
   "name": "namaste-react",
   "version": "1.0.0",
   "description": "",
-  "main": "App.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": " parcel index.html",
+    "build": " parcel build index.html"
   },
   "author": "sai Krishna",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "css": "^3.0.0",
     "parcel": "^2.13.2",
+    "post": "^0.0.1",
     "process": "^0.11.10"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.0.17",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "6.4",
+    "tailwindcss": "^4.0.17"
   }
 }
